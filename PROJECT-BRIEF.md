@@ -5,7 +5,8 @@
 - Client/brand: Frigorífico Don Silvio.
 - Repository: `condegraphics/frigorifico-don-silvio-landing`.
 - Language and market: Spanish, Argentina.
-- State: local implementation preview, not published.
+- State: published from `main` with GitHub Pages; this branch contains a
+  proposed redesign.
 - Stack: plain HTML, CSS, and minimal JavaScript, per user selection.
 
 ## Goal and audience
@@ -39,6 +40,20 @@
 - Branches in San Justo and Libertad/Merlo are published in the source. The user
   confirmed one central WhatsApp contact for all landing-page conversions.
 
+## Visual direction
+
+- Use the user-provided meat-commerce landing screenshot as the visual
+  reference for layout, section order, image scale, navigation, buttons, color,
+  and spacing.
+- The hero must be a full-width, full-background photograph from `img/`, with a
+  dark overlay and prominent copy and WhatsApp action.
+- Follow with a browsable product catalog, distinct household/wholesale
+  inquiries, a current-offer inquiry, branches, FAQs, and a clear footer.
+- Use the repository's complete set of food and business photographs across the
+  page. Do not add fabricated prices, discounts, review quotes, or business
+  statistics to imitate the source reference.
+- This direction replaces the previous “Vitrina refrigerada” system.
+
 ## SEO and measurement
 
 - Proposed title: Frigorífico Don Silvio | Carne minorista y mayorista
@@ -52,4 +67,3 @@
 - Confirm current addresses and hours before representing them as current.
 - Confirm whether the historical quality-process statements are still accurate
   before making them claims.
-- Confirm domain, hosting, and publication target.

@@ -2,62 +2,71 @@
 
 ## Direction
 
-**Vitrina refrigerada** adapts the geometry of a butcher's refrigerated display
-to a useful, contemporary landing page. Framed glass panes become the page's
-information architecture: each pane holds one product group, purchase path, or
-branch action. The product photography remains the dominant visual evidence.
+**Mostrador de carnes contemporáneo** adapts the visual grammar of the supplied
+meat-commerce reference: a compact dark storefront header, a full-bleed
+photographic hero, an editorial product catalog, bold red actions, and open
+photo-and-copy sections. The layout leads with the product and gives household
+and wholesale buyers distinct ways to ask about it.
 
-The glass reference is structural, not a blur effect. Use clean surfaces,
-rectilinear divisions, fine charcoal frames, and strong photographs. Do not
-imitate reflections, glassmorphism, or a physical storefront facade.
+The reference informs the composition, hierarchy, image treatment, button
+proportions, and section order. Use Don Silvio's real identity and photographs;
+do not reproduce another business's logo, claims, prices, reviews, or invented
+metrics. Do not imitate a generic three-card feature template.
 
 ## Brand and palette
 
-- Brand red: `#ED3237`, sampled from the supplied logo and reserved for actions
-  and key emphasis.
-- Ink: `#292B2C`.
-- Muted text: `#565D5F`.
-- Cool light surface: `#F3F5F4`.
+- Ink: `#171717`.
+- Header and dark surfaces: `#101010`.
+- Primary conversion red: `#C51230`, with `#A90E28` for hover.
+- Bright red emphasis: `#ED3237`.
+- Paper: `#F5F5F3`.
 - White: `#FFFFFF`.
-- Fine frame: `#D1D7D5`.
+- Quiet rules: `#DEDEDB`.
 
-Keep the page light throughout. The supplied red logo is the single action
-accent; do not introduce blue, gold, or unrelated status colors.
+Red is reserved for the main WhatsApp action, category emphasis, and active
+filter. Keep text contrast readable on both dark and red surfaces.
 
 ## Typography
 
-Use a compact system sans-serif stack with clear weight and size contrast. Keep
-headlines short, left-aligned, and readable. Body copy should remain at a
-comfortable reading measure. The supplied logo is the sole custom brand mark;
-do not recreate or alter its lettering.
+Use the compact system sans-serif stack already supported by the page.
+Headlines are heavy, short, and left-aligned except for the centered product
+catalog title. Body copy uses comfortable line lengths. The provided logo is
+the only custom brand lettering.
 
 ## Composition
 
-- Use an asymmetric 12-column desktop grid that collapses to a single column on
-  narrow screens.
-- Treat content areas as connected display panes separated by charcoal rules,
-  not as floating cards.
-- Give photographs large, intentionally cropped frames. Add explicit image
-  dimensions or aspect ratios to avoid layout shift.
-- Keep navigation on one line on desktop; use native links and a compact menu on
-  mobile if needed.
-- Alternate image-led product compositions with open text and branch/contact
-  sections. Avoid repeating identical card rows.
-- Use consistent small corner radii for controls; pane frames remain square.
+- Reproduce the reference's order: dark header, full-background photographic
+  hero with clear actions, product catalog and filters, image-led business
+  story, retail/wholesale paths, current-offer inquiry, branches, FAQs, footer.
+- The hero uses a real repository photograph as its entire background, with a
+  dark overlay for legible copy and a red, three-part purchase ribbon.
+- Use a four-column desktop catalog with varied product photography and a
+  compact filter rail; collapse to two columns on mobile.
+- Alternate dark commerce framing, white editorial space, and red conversion
+  panels. Let real photography carry visual weight; avoid ornamental gradients,
+  fake badges, and metric blocks.
+- Use every existing photograph in `img/`; lazy-load offscreen images.
+- Keep branch information separate and clearly attributable to each location.
+- On narrow screens, retain the logo and contact action, provide a horizontally
+  scrollable compact navigation, and stack large image/copy sections.
 
-## Interaction and accessibility
+## Content and interaction
 
-- WhatsApp is the primary conversion path. It must lead to a published branch
-  contact, not a fabricated central number.
-- Every action has visible text and a clear destination. Preserve keyboard
-  focus, contrast, touch targets, and a reduced-motion fallback.
-- Use progressive enhancement. Navigation, product information, FAQs, and
-  WhatsApp links must work without JavaScript.
-- Do not add tracking scripts, third-party widgets, forms, or location claims
-  without approval.
+- Write in direct Argentine Spanish.
+- Use one business WhatsApp destination, `5491123182958`, for every
+  conversion, with a message tailored to the selected product or buyer intent.
+- The catalog filters operate on product categories and keep all products
+  visible by default. With JavaScript unavailable, the complete catalog remains
+  readable.
+- Do not invent current prices, promotions, availability, customer reviews,
+  sales statistics, delivery terms, or quality certifications.
+- Branch hours and addresses are sourced from published information and retain
+  a note to confirm changes and holidays.
+- Preserve visible keyboard focus, contrast, useful image alternatives, native
+  links, and a reduced-motion fallback.
 
 ## Motion
 
-Keep the page mostly still. A short entrance for the hero media may establish
-hierarchy; hover and pressed states provide feedback. Honor
-`prefers-reduced-motion`.
+Keep motion restrained: small image scale and button feedback on hover only.
+Honor `prefers-reduced-motion`. Do not add autoplay, scroll hijacking, or
+repeating animation.

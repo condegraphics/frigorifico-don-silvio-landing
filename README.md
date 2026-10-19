@@ -1,6 +1,7 @@
 # Frigorífico Don Silvio
 
-Landing estática para consultas minoristas y mayoristas.
+Landing estática para consultas minoristas y mayoristas, implementada en HTML,
+CSS y JavaScript sin dependencias.
 
 ## Vista previa
 

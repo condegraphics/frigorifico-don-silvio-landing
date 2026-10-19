@@ -65,13 +65,14 @@ may identify a branch or inquiry type, but all links use this one number.
   of public information and explicitly flags facts that require confirmation.
 - Brand imagery and logo: repository `img/` directory.
 - No current approved price list, offer, customer testimonial, delivery policy,
-  or confirmed lead-routing instruction was supplied.
+  or wholesale conditions were supplied. The user confirmed the single
+  conversion destination as WhatsApp +54 9 11 2318-2958.
 
 ## Product Principles
 
 - Make it easy to identify products, audience, and the next action.
-- Route inquiries to a relevant branch when the source provides a published
-  contact for that branch.
+- Route every landing-page conversion to the confirmed business WhatsApp;
+  include branch context in the prefilled message when relevant.
 - Treat changing commercial details as questions for WhatsApp, not static
   promises.
 - Preserve the distinction between confirmed business identity and related,
