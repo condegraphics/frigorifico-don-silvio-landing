@@ -48,10 +48,14 @@ may identify a branch or inquiry type, but all links use this one number.
 - The user-supplied page copy names asado de tira, vacío, bife de chorizo,
   entraña, matambre, ojo de bife, nalga, and bola de lomo as popular cuts.
 - Continue to present product stock and availability as varying by day.
+- The user supplied business copy describing media-res processing, retail
+  product selections, and BPM, SSOP, HACCP, and QUACP processes. Attribute
+  process descriptions to the company; do not imply certification, guarantee,
+  or scope beyond the supplied information.
 - Current prices, promotions, stock, branch hours, delivery, minimum orders,
   and wholesale conditions must not be invented or presented as guaranteed.
-- Do not claim certifications, quality controls, or customer ratings without
-  current supporting evidence and approval.
+- Do not add certifications, quality controls, or customer ratings beyond
+  information the user has supplied and approved.
 - Do not combine Don Silvio with La Granja Don Silvio until their relationship
   is confirmed.
 

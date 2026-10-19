@@ -43,6 +43,24 @@ Los llamados a la acción ofrecen consultas distintas para compras del hogar y
 pedidos de lista mayorista y formatos disponibles. Ambos dirigen al WhatsApp
 confirmado `5491123182958`.
 
+## Quiénes somos
+
+La empresa se presenta como dedicada a la comercialización y producción de
+carne vacuna, pollo y cerdo para carnicerías, parrillas, restaurantes y hogares
+de Gran Buenos Aires y CABA. La comunicación distingue dos recorridos:
+
+- Para negocios: consultar por media res de ternera o novillito y la opción
+  de desposte y fileteado según preferencias, además de lista mayorista,
+  formatos y condiciones actuales.
+- Para hogares: cortes de vacuno y cerdo, como asado, vacío, lomo, matambre,
+  bondiola y pechito, junto con milanesas de ternera y pollo listas para
+  cocinar. La disponibilidad puede cambiar.
+
+La empresa compartió información sobre procesos BPM, SSOP, HACCP y QUACP.
+Presentarlos como procesos informados por la empresa; no describirlos como
+certificaciones ni añadir garantías o alcances no provistos. Derivar consultas
+por documentación y vigencia al WhatsApp confirmado `5491123182958`.
+
 ## Purchase paths
 
 ### Para tu casa
