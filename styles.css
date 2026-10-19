@@ -12,6 +12,7 @@
   --font-sans: "Aptos", "Segoe UI", Arial, sans-serif;
   --page-width: 1320px;
   --page-gutter: clamp(1.25rem, 5vw, 5rem);
+  --header-offset: 82px;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -21,7 +22,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 1.25rem;
+  scroll-padding-top: calc(var(--header-offset) + 1rem);
 }
 
 body {
@@ -98,10 +99,16 @@ h3 {
 }
 
 .site-header {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 5;
   background: #101010;
   color: var(--white);
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.16);
+}
+
+main [id] {
+  scroll-margin-top: calc(var(--header-offset) + 1rem);
 }
 
 .header-inner {
@@ -970,6 +977,7 @@ h3 {
 @media (max-width: 700px) {
   :root {
     --page-gutter: 1.15rem;
+    --header-offset: 94px;
   }
 
   .header-inner {
