@@ -27,6 +27,22 @@ the one confirmed business number.
 The catalog filter is a convenience only. All products are available without
 JavaScript, and the page directs visitors to confirm daily availability.
 
+## Cortes más pedidos
+
+Si el asado del domingo, la milanesa de todos los días o el abastecimiento de
+una carnicería dependen de tener la carne justa, Don Silvio comunica la compra
+directa del frigorífico, sin intermediarios.
+
+- Para la parrilla: asado de tira, vacío, bife de chorizo, entraña, matambre y
+  ojo de bife.
+- Para milanesas: nalga y bola de lomo.
+- También: cerdo, pollo, milanesas listas para cocinar y productos para
+  parrilla, según disponibilidad del día.
+
+Los llamados a la acción ofrecen consultas distintas para compras del hogar y
+pedidos de lista mayorista y formatos disponibles. Ambos dirigen al WhatsApp
+confirmado `5491123182958`.
+
 ## Purchase paths
 
 ### Para tu casa

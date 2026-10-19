@@ -27,7 +27,8 @@ offers, stock, purchasing formats, or wholesale supply.
 
 The supplied source document describes a combination of frigorifico-direct
 access, product variety, retail and wholesale purchasing, and in-person branch
-service. These are source findings, not independently re-verified claims.
+service. The user-provided landing narrative confirms the direct-from-frigorífico
+message and identifies popular beef cuts for barbecue and milanesas.
 
 ## Operating Context
 
@@ -44,6 +45,9 @@ may identify a branch or inquiry type, but all links use this one number.
 
 - The source lists beef, pork, chicken, milanesas, offal, sausages, and
   barbecue products.
+- The user-supplied page copy names asado de tira, vacío, bife de chorizo,
+  entraña, matambre, ojo de bife, nalga, and bola de lomo as popular cuts.
+- Continue to present product stock and availability as varying by day.
 - Current prices, promotions, stock, branch hours, delivery, minimum orders,
   and wholesale conditions must not be invented or presented as guaranteed.
 - Do not claim certifications, quality controls, or customer ratings without
