@@ -34,12 +34,48 @@
           >
         </a>
 
-        <nav class="main-nav" aria-label="Navegación principal">
+        <nav class="main-nav" id="primary-navigation" aria-label="Navegación principal">
+          <div class="mobile-nav-top">
+            <a class="mobile-nav-brand" href="#inicio" aria-label="Frigorífico Don Silvio, inicio">
+              <img
+                src="img/logo-don-silvio-frigorifico-2026.svg"
+                alt="Frigorífico Don Silvio"
+                width="297"
+                height="150"
+              >
+            </a>
+            <button class="menu-close" type="button" aria-label="Cerrar menú de navegación">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
+          <p class="mobile-nav-intro">Explorá Frigorífico Don Silvio</p>
           <a href="#productos">Productos</a>
+          <a href="#cortes">Cortes más pedidos</a>
           <a href="#quienes-somos">Quiénes somos</a>
           <a href="#compra">Minorista y mayorista</a>
           <a href="#sucursales">Sucursales</a>
+          <div class="mobile-nav-footer">
+            <a
+              class="button mobile-nav-cta"
+              href="https://wa.me/5491123182958?text=Hola%20Don%20Silvio%2C%20quiero%20consultar%20por%20sus%20productos."
+              target="_blank"
+              rel="noopener noreferrer"
+            >Consultar por WhatsApp</a>
+          </div>
         </nav>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menú de navegación"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
 
         <a
           class="button button--header"
@@ -257,7 +293,7 @@
         </div>
       </section>
 
-      <section class="cuts-section section-pad" aria-labelledby="cuts-title">
+      <section class="cuts-section section-pad" id="cortes" aria-labelledby="cuts-title">
         <div class="page-shell cuts-layout">
           <figure class="cuts-photo">
             <img
@@ -613,6 +649,7 @@
         <p>Carne para tu casa.<br>Abastecimiento para tu negocio.</p>
         <nav class="footer-nav" aria-label="Navegación del pie">
           <a href="#productos">Productos</a>
+          <a href="#cortes">Cortes más pedidos</a>
           <a href="#quienes-somos">Quiénes somos</a>
           <a href="#compra">Minorista y mayorista</a>
           <a href="#sucursales">Sucursales</a>
