@@ -39,7 +39,7 @@ the only custom brand lettering.
   hero with clear actions, product catalog and filters, image-led business
   story, retail/wholesale paths, current-offer inquiry, branches, FAQs, footer.
 - The hero uses a real repository photograph as its entire background, with a
-  dark overlay for legible copy and a red, three-part purchase ribbon.
+  restrained dark overlay for legible copy and a red, three-part purchase ribbon.
 - Use a four-column desktop catalog with varied product photography and a
   compact filter rail; collapse to two columns on mobile.
 - Alternate dark commerce framing, white editorial space, and red conversion
@@ -47,8 +47,10 @@ the only custom brand lettering.
   fake badges, and metric blocks.
 - Use every existing photograph in `img/`; lazy-load offscreen images.
 - Keep branch information separate and clearly attributable to each location.
-- On narrow screens, retain the logo and contact action, provide a horizontally
-  scrollable compact navigation, and stack large image/copy sections.
+- On compact screens, retain the logo and contact action and use a full-screen
+  dark navigation panel with large section links, a clear close control, and a
+  WhatsApp action. Keep horizontal navigation available as a no-JavaScript
+  fallback; stack large image/copy sections.
 
 ## Content and interaction
 
@@ -64,6 +66,9 @@ the only custom brand lettering.
   a note to confirm changes and holidays.
 - Preserve visible keyboard focus, contrast, useful image alternatives, native
   links, and a reduced-motion fallback.
+- Order primary navigation by the page's key journeys: products, popular cuts,
+  company story, purchase options, and branches. The mobile menu closes with
+  Escape or after following an in-page link.
 
 ## Motion
 
