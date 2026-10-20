@@ -33,9 +33,11 @@ message and identifies popular beef cuts for barbecue and milanesas.
 ## Operating Context
 
 The supplied source document lists branches in San Justo and Libertad/Merlo.
-It also describes a Moreno location under the related name La Granja Don Silvio;
-the relationship and its role are unresolved and must not be implied by the
-landing page.
+The user confirmed that La Granja Don Silvio Moreno is also a Frigorífico Don
+Silvio location and identified it as the central branch. Present the locations
+in this order: Moreno (central), San Justo, and Libertad/Merlo. The user
+provided the address and hours for all three locations in the supplied branch
+reference.
 
 WhatsApp is the lead channel for every landing-page conversion. The user
 confirmed the business WhatsApp number +54 9 11 2318-2958. Prefilled messages
@@ -64,8 +66,8 @@ may identify a branch or inquiry type, but all links use this one number.
   approximate mocho weight of 30–35 kg, listed cuts and included trim/bones,
   custom cutting/packing/labeling, and orders requested 1–2 days ahead. Treat
   price and availability as WhatsApp inquiries rather than fixed promises.
-- Do not combine Don Silvio with La Granja Don Silvio until their relationship
-  is confirmed.
+- Treat La Granja Don Silvio Moreno as the central location affiliated with
+  Frigorífico Don Silvio, as explicitly confirmed by the user.
 
 ## Brand Commitments
 

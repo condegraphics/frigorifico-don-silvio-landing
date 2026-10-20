@@ -74,21 +74,30 @@ formatos, stock y condiciones vigentes.
 
 ## Branch details
 
+### La Granja Don Silvio · Moreno (central)
+
+Avenida Gaona 4181, B1743, Moreno, Provincia de Buenos Aires.
+Hours provided by the user: every day, 06:00-21:00, continuous.
+The user confirmed this is the central location affiliated with Frigorífico
+Don Silvio. Use the confirmed business WhatsApp, `5491123182958`, for inquiries.
+
 ### San Justo
 
-Av. Pres. Dr. Arturo Umberto Illia 2932, San Justo, Buenos Aires.
-Published hours in source: Monday-Saturday 08:00-20:00; Sunday 08:00-13:00.
+Av. Pres. Dr. Arturo Umberto Illia 2932, B1754KHA, San Justo, Buenos Aires.
+Hours shown in the user-provided branch reference: Monday-Saturday 08:00-20:00;
+Sunday 08:00-13:00.
 Business WhatsApp confirmed by the user: +54 9 11 2318-2958.
 
 ### Libertad / Merlo
 
-José Miró 1862, Libertad, Merlo, Buenos Aires.
-Published hours in source: Monday-Saturday 08:00-20:00; Sunday 08:00-13:00.
+José Miró 1862, B1716, Libertad, Partido de Merlo.
+Hours shown in the user-provided branch reference: Monday-Saturday 08:00-20:00;
+Sunday 08:00-13:00.
 Use the confirmed business WhatsApp, +54 9 11 2318-2958, and specify
 Libertad/Merlo in the prefilled message.
 
-The source warns that branch hours and contact information can change. Ask
-visitors to confirm changes and holiday hours before traveling.
+Branch hours and contact information can change. Ask visitors to confirm
+changes and holiday hours before traveling.
 
 ## FAQ
 
