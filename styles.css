@@ -733,7 +733,7 @@ main [id] {
 
 .buying-section {
   display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 4.15fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   background: var(--paper);
 }
 
@@ -753,7 +753,7 @@ main [id] {
 .buying-copy {
   display: flex;
   align-items: center;
-  padding: clamp(2rem, 7vw, 6rem);
+  padding: clamp(2rem, 5vw, 4.5rem);
 }
 
 .buying-copy-inner {
@@ -762,14 +762,17 @@ main [id] {
 
 .buying-channels {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.85rem;
+  gap: 0.7rem;
   margin-top: 1.85rem;
 }
 
 .buying-channel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  column-gap: 1.5rem;
   min-width: 0;
-  padding: clamp(1rem, 1.8vw, 1.4rem);
+  padding: 1rem clamp(1rem, 2vw, 1.5rem);
   border: 1px solid #d8d8d4;
   border-top: 3px solid var(--red);
   background: var(--white);
@@ -780,8 +783,9 @@ main [id] {
 }
 
 .buying-channel__eyebrow {
+  grid-column: 1 / -1;
   display: block;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.35rem;
   color: var(--muted);
   font-size: 0.72rem;
   font-weight: 750;
@@ -791,7 +795,7 @@ main [id] {
 }
 
 .buying-channel h3 {
-  margin-bottom: 0.8rem;
+  margin: 0;
   font-size: 1.1rem;
   text-transform: uppercase;
 }
@@ -799,9 +803,8 @@ main [id] {
 .buying-channel__phone {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  justify-content: flex-end;
+  gap: 0.7rem;
   color: var(--ink);
   font-size: clamp(1.2rem, 2vw, 1.65rem);
   font-weight: 800;
@@ -827,13 +830,15 @@ main [id] {
 }
 
 .buying-channel > p {
-  margin: 0.75rem 0 0;
+  grid-column: 1;
+  margin: 0.35rem 0 0;
   color: var(--muted);
   font-size: 0.82rem;
   line-height: 1.5;
 }
 
 .buying-channel__emails {
+  grid-column: 1 / -1;
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem 1.25rem;
@@ -1748,12 +1753,9 @@ main [id] {
 }
 
 @media (max-width: 900px) {
-  .buying-section {
-    grid-template-columns: minmax(0, 0.85fr) minmax(0, 4.15fr);
-  }
-
   .cuts-layout,
   .story-layout,
+  .buying-section,
   .wholesale-intro,
   .wholesale-options,
   .market-layout,
@@ -2013,7 +2015,7 @@ main [id] {
   }
 
   .buying-section {
-    grid-template-columns: minmax(0, 0.85fr) minmax(0, 4.15fr);
+    grid-template-columns: 1fr;
   }
 
   .wholesale-intro,
@@ -2036,38 +2038,22 @@ main [id] {
   }
 
   .buying-image {
-    min-height: 480px;
-    max-height: 640px;
+    min-height: 320px;
+    max-height: 410px;
   }
 
   .buying-copy {
-    padding: 3rem clamp(1.5rem, 5vw, 3.5rem) 3.5rem;
+    padding: 3rem var(--page-gutter) 3.5rem;
   }
 
   .buying-channels {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.65rem;
+    gap: 0.7rem;
     margin-top: 1.6rem;
   }
 
   .buying-channel {
-    padding: 0.9rem;
-  }
-
-  .buying-channel__phone {
-    font-size: clamp(1rem, 2.6vw, 1.3rem);
-  }
-
-  .buying-channel__eyebrow {
-    font-size: 0.64rem;
-  }
-
-  .buying-channel h3 {
-    font-size: 0.96rem;
-  }
-
-  .buying-channel__call {
-    font-size: 0.68rem;
+    column-gap: 0.65rem;
+    padding: 1rem;
   }
 
   .buying-channel__emails {
