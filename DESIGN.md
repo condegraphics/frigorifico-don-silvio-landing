@@ -71,7 +71,7 @@ brand lettering.
 ## Content and interaction
 
 - Write in direct Argentine Spanish.
-- Use one business WhatsApp destination, `5491123182958`, for every
+- Use one business WhatsApp destination, `5491166716422`, for every
   conversion, with a message tailored to the selected product or buyer intent.
 - The catalog filters operate on product categories and keep all products
   visible by default. With JavaScript unavailable, the complete catalog remains

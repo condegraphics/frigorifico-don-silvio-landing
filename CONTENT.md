@@ -11,7 +11,7 @@ guaranteed.
 Carne vacuna, cerdo, pollo, milanesas y productos para parrilla. Encontrá lo
 que buscás y consultá precios y disponibilidad.
 
-Primary action: consult by WhatsApp at `5491123182958`. Prefilled messages
+Primary action: consult by WhatsApp at `5491166716422`. Prefilled messages
 identify product, purchase type, or branch while routing every conversion to
 the one confirmed business number.
 
@@ -41,7 +41,7 @@ directa del frigorífico, sin intermediarios.
 
 Los llamados a la acción ofrecen consultas distintas para compras del hogar y
 pedidos de lista mayorista y formatos disponibles. Ambos dirigen al WhatsApp
-confirmado `5491123182958`.
+confirmado `5491166716422`.
 
 ## Quiénes somos
 
@@ -59,7 +59,7 @@ de Gran Buenos Aires y CABA. La comunicación distingue dos recorridos:
 La empresa compartió información sobre procesos BPM, SSOP, HACCP y QUACP.
 Presentarlos como procesos informados por la empresa; no describirlos como
 certificaciones ni añadir garantías o alcances no provistos. Derivar consultas
-por documentación y vigencia al WhatsApp confirmado `5491123182958`.
+por documentación y vigencia al WhatsApp confirmado `5491166716422`.
 
 ## Purchase paths
 
@@ -79,21 +79,21 @@ formatos, stock y condiciones vigentes.
 Avenida Gaona 4181, B1743, Moreno, Provincia de Buenos Aires.
 Hours provided by the user: every day, 06:00-21:00, continuous.
 The user confirmed this is the central location affiliated with Frigorífico
-Don Silvio. Use the confirmed business WhatsApp, `5491123182958`, for inquiries.
+Don Silvio. Use the confirmed business WhatsApp, `5491166716422`, for inquiries.
 
 ### San Justo
 
 Av. Pres. Dr. Arturo Umberto Illia 2932, B1754KHA, San Justo, Buenos Aires.
 Hours shown in the user-provided branch reference: Monday-Saturday 08:00-20:00;
 Sunday 08:00-13:00.
-Business WhatsApp confirmed by the user: +54 9 11 2318-2958.
+Business WhatsApp confirmed by the user: +54 9 11 6671-6422.
 
 ### Libertad / Merlo
 
 José Miró 1862, B1716, Libertad, Partido de Merlo.
 Hours shown in the user-provided branch reference: Monday-Saturday 08:00-20:00;
 Sunday 08:00-13:00.
-Use the confirmed business WhatsApp, +54 9 11 2318-2958, and specify
+Use the confirmed business WhatsApp, +54 9 11 6671-6422, and specify
 Libertad/Merlo in the prefilled message.
 
 Branch hours and contact information can change. Ask visitors to confirm

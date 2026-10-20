@@ -16,7 +16,7 @@
   area.
 - Primary action: start a WhatsApp inquiry about products, prices, offers, stock,
   or wholesale supply. Branch context may be included in the prefilled message.
-- Lead destination: business WhatsApp +54 9 11 2318-2958, confirmed by the user.
+- Lead destination: business WhatsApp +54 9 11 6671-6422, confirmed by the user.
 - Every conversion CTA on the landing must route to this one WhatsApp number.
 
 ## Sources and assets

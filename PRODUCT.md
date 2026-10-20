@@ -40,7 +40,7 @@ provided the address and hours for all three locations in the supplied branch
 reference.
 
 WhatsApp is the lead channel for every landing-page conversion. The user
-confirmed the business WhatsApp number +54 9 11 2318-2958. Prefilled messages
+confirmed the business WhatsApp number +54 9 11 6671-6422. Prefilled messages
 may identify a branch or inquiry type, but all links use this one number.
 
 ## Capabilities and Constraints
@@ -85,7 +85,7 @@ may identify a branch or inquiry type, but all links use this one number.
 - No current approved price list, offer, delivery policy, or wholesale
   conditions were supplied. The user confirmed five customer reviews and
   their Google Maps source, plus the single conversion destination as WhatsApp
-  +54 9 11 2318-2958.
+  +54 9 11 6671-6422.
 
 ## Product Principles
 
