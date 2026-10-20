@@ -51,11 +51,17 @@ brand lettering.
 - Present user-supplied customer reviews in a calm editorial grid before the
   branch information, with a direct link to the Google Maps source. Do not add
   an aggregate rating or review count unless verified and supplied.
+- Introduce the locations with a clear local-search heading for Frigorífico Don
+  Silvio in western Greater Buenos Aires. Order the three branch entries as
+  Moreno (central), San Justo, and Libertad/Merlo; use an understated featured
+  treatment for the central location and direct map/WhatsApp links per branch.
 - Give the wholesale media-res section a distinct product-story treatment:
   use the supplied mocho photograph, a legible mocho cut breakdown, a separate
   parrillero explanation, and a clear preparation lead-time/WhatsApp action.
 - Use every existing photograph in `img/`; lazy-load offscreen images.
-- Keep branch information separate and clearly attributable to each location.
+- Keep branch information separate and clearly attributable to each location;
+  present hours as subject to change and invite visitors to confirm before
+  traveling.
 - On compact screens, show only the logo at the left and the hamburger control
   at the right of the closed header. The expanded full-screen dark navigation
   panel retains large section links, a clear close control, and a WhatsApp

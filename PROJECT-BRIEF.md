@@ -31,14 +31,14 @@
 
 - Use the `Frigorífico Don Silvio` identity and supplied logo.
 - Use only the photographs and logo in `img/`.
-- Do not merge the identity with `La Granja Don Silvio` until the relationship
-  is confirmed.
+- The user confirmed that La Granja Don Silvio Moreno is the central location
+  affiliated with Frigorífico Don Silvio.
 - Do not invent current prices, stock, offers, delivery coverage, minimum
   orders, or certifications.
-- Do not publish a Moreno location as a retail branch until its role and brand
-  relationship are confirmed.
-- Branches in San Justo and Libertad/Merlo are published in the source. The user
-  confirmed one central WhatsApp contact for all landing-page conversions.
+- Branch locations are ordered Moreno (central), San Justo, then
+  Libertad/Merlo. The user-provided reference includes the Moreno address and
+  hours. The user confirmed one central WhatsApp contact for all landing-page
+  conversions.
 
 ## Visual direction
 
