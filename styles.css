@@ -2111,17 +2111,6 @@ main [id] {
   text-decoration: none;
 }
 
-.wa-float__label {
-  padding: 0.85rem 1.25rem;
-  border-radius: 999px;
-  background: var(--white);
-  font-weight: 700;
-  font-size: 0.95rem;
-  white-space: nowrap;
-  box-shadow: 0 8px 24px rgb(0 0 0 / 0.18);
-  transition: transform 0.25s var(--ease-out);
-}
-
 .wa-float__icon {
   display: grid;
   place-items: center;
@@ -2146,26 +2135,13 @@ main [id] {
   border-radius: 999px;
 }
 
-@media (max-width: 480px) {
-  .wa-float__label {
-    padding: 0.65rem 0.95rem;
-    font-size: 0.85rem;
-  }
-
-  .wa-float__icon {
+@media (max-width: 480px) {  .wa-float__icon {
     width: 56px;
     height: 56px;
   }
 }
 
-@media (max-width: 360px) {
-  .wa-float__label {
-    display: none;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .wa-float__label,
   .wa-float__icon {
     transition: none;
   }
