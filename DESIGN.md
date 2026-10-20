@@ -29,9 +29,11 @@ filter. Keep text contrast readable on both dark and red surfaces.
 ## Typography
 
 Use the compact system sans-serif stack already supported by the page.
-Headlines are heavy, short, and left-aligned except for the centered product
-catalog title. Body copy uses comfortable line lengths. The provided logo is
-the only custom brand lettering.
+Headlines are heavy and left-aligned except for the centered product catalog
+title. Keep each heading and its supporting copy within a shared reading
+column, capped near 68ch; do not apply narrow character-count
+widths that force awkward line breaks. The provided logo is the only custom
+brand lettering.
 
 ## Composition
 
@@ -54,10 +56,11 @@ the only custom brand lettering.
   parrillero explanation, and a clear preparation lead-time/WhatsApp action.
 - Use every existing photograph in `img/`; lazy-load offscreen images.
 - Keep branch information separate and clearly attributable to each location.
-- On compact screens, retain the logo and contact action and use a full-screen
-  dark navigation panel with large section links, a clear close control, and a
-  WhatsApp action. Keep horizontal navigation available as a no-JavaScript
-  fallback; stack large image/copy sections.
+- On compact screens, show only the logo at the left and the hamburger control
+  at the right of the closed header. The expanded full-screen dark navigation
+  panel retains large section links, a clear close control, and a WhatsApp
+  action. Keep horizontal navigation available as a no-JavaScript fallback;
+  stack image/copy sections before their text columns become cramped.
 
 ## Content and interaction
 

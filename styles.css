@@ -11,6 +11,7 @@
   --red-bright: #ed3237;
   --font-sans: "Aptos", "Segoe UI", Arial, sans-serif;
   --page-width: 1320px;
+  --copy-measure: 68ch;
   --page-gutter: clamp(1.25rem, 5vw, 5rem);
   --header-offset: 82px;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -326,7 +327,7 @@ main [id] {
 }
 
 .section-heading {
-  max-width: 720px;
+  max-width: var(--copy-measure);
   margin-bottom: 2.35rem;
 }
 
@@ -358,7 +359,7 @@ main [id] {
 .section-heading p,
 .branches-heading > div > p,
 .faq-heading > p {
-  max-width: 65ch;
+  max-width: none;
   margin-bottom: 0;
   color: var(--muted);
 }
@@ -514,6 +515,10 @@ main [id] {
   gap: clamp(2rem, 6vw, 5.5rem);
 }
 
+.cuts-copy {
+  max-width: var(--copy-measure);
+}
+
 .cuts-photo {
   min-height: 540px;
   position: relative;
@@ -530,7 +535,6 @@ main [id] {
 }
 
 .cuts-copy h2 {
-  max-width: 14ch;
   margin-bottom: 1rem;
   font-size: clamp(2.2rem, 4vw, 3.7rem);
   font-weight: 780;
@@ -544,7 +548,7 @@ main [id] {
 
 .cuts-intro,
 .cuts-more {
-  max-width: 62ch;
+  max-width: none;
   color: var(--muted);
 }
 
@@ -596,7 +600,7 @@ main [id] {
 }
 
 .cuts-location {
-  max-width: 65ch;
+  max-width: none;
   margin: 1.5rem 0 0;
   padding-top: 1rem;
   border-top: 1px solid var(--line);
@@ -613,6 +617,10 @@ main [id] {
   grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
   align-items: start;
   gap: clamp(2rem, 7vw, 6rem);
+}
+
+.story-copy {
+  max-width: var(--copy-measure);
 }
 
 .story-gallery {
@@ -641,12 +649,7 @@ main [id] {
   height: auto;
 }
 
-.story-copy h2 {
-  max-width: 12ch;
-}
-
 .story-lede {
-  max-width: 28ch;
   margin: 0 0 0.8rem;
   font-size: clamp(1.2rem, 2vw, 1.55rem);
   line-height: 1.25;
@@ -655,7 +658,7 @@ main [id] {
 .story-copy > p,
 .buying-copy-inner > p,
 .market-copy > p {
-  max-width: 52ch;
+  max-width: none;
   margin-bottom: 1.65rem;
   color: var(--muted);
 }
@@ -693,7 +696,6 @@ main [id] {
 }
 
 .story-quality-heading h3 {
-  max-width: 12ch;
   margin-bottom: 0.8rem;
   font-size: clamp(1.8rem, 3vw, 2.5rem);
   letter-spacing: -0.025em;
@@ -701,7 +703,6 @@ main [id] {
 }
 
 .story-quality-heading p {
-  max-width: 42ch;
   margin-bottom: 1.4rem;
   color: rgb(255 255 255 / 0.78);
 }
@@ -756,11 +757,7 @@ main [id] {
 }
 
 .buying-copy-inner {
-  max-width: 560px;
-}
-
-.buying-copy h2 {
-  max-width: 13ch;
+  max-width: min(100%, var(--copy-measure));
 }
 
 .buying-actions {
@@ -835,7 +832,6 @@ main [id] {
 }
 
 .wholesale-intro-copy h2 {
-  max-width: 22ch;
   margin-bottom: 1.15rem;
   font-size: clamp(2.15rem, 4vw, 3.45rem);
   font-weight: 780;
@@ -844,9 +840,12 @@ main [id] {
 }
 
 .wholesale-intro-copy > p:last-child {
-  max-width: 62ch;
   margin-bottom: 0;
   color: var(--ink-soft);
+}
+
+.wholesale-intro-copy {
+  max-width: var(--copy-measure);
 }
 
 .wholesale-options {
@@ -945,7 +944,6 @@ main [id] {
 }
 
 .parrillero-detail > p:not(.wholesale-kicker) {
-  max-width: 44ch;
   margin-bottom: 1rem;
   color: rgb(255 255 255 / 0.86);
 }
@@ -1013,7 +1011,11 @@ main [id] {
 }
 
 .market-copy h2 {
-  max-width: 13ch;
+  max-width: none;
+}
+
+.market-copy {
+  max-width: var(--copy-measure);
 }
 
 .market-copy > p {
@@ -1041,7 +1043,7 @@ main [id] {
 }
 
 .reviews-heading {
-  max-width: 900px;
+  max-width: var(--copy-measure);
   margin-bottom: 2rem;
 }
 
@@ -1050,9 +1052,12 @@ main [id] {
 }
 
 .reviews-heading > p {
-  max-width: 60ch;
   margin-bottom: 0;
   color: var(--muted);
+}
+
+.branches-heading > div {
+  max-width: var(--copy-measure);
 }
 
 .reviews-grid {
@@ -1267,8 +1272,8 @@ main [id] {
   gap: clamp(2rem, 8vw, 7rem);
 }
 
-.faq-heading h2 {
-  max-width: 9ch;
+.faq-heading {
+  max-width: var(--copy-measure);
 }
 
 .faq-heading > p {
@@ -1392,7 +1397,7 @@ main [id] {
   }
 
   .header-inner {
-    grid-template-columns: 120px 1fr auto auto;
+    grid-template-columns: 120px 1fr auto;
     gap: 1rem;
   }
 
@@ -1459,7 +1464,7 @@ main [id] {
   }
 
   .has-js .header-inner {
-    grid-template-columns: 120px 1fr auto auto;
+    grid-template-columns: 120px 1fr auto;
   }
 
   .has-js .main-nav:not(.is-open) {
@@ -1580,10 +1585,7 @@ main [id] {
   }
 
   .button--header {
-    grid-column: 4;
-    grid-row: 1;
-    padding-inline: 0.75rem;
-    font-size: 0.76rem;
+    display: none;
   }
 
   .product-grid {
@@ -1616,11 +1618,6 @@ main [id] {
 
   .cuts-photo {
     min-height: 450px;
-  }
-
-  .cuts-row {
-    grid-template-columns: 1fr;
-    gap: 0.35rem;
   }
 
   .buying-image {
@@ -1658,6 +1655,47 @@ main [id] {
   }
 }
 
+@media (max-width: 900px) {
+  .cuts-layout,
+  .story-layout,
+  .buying-section,
+  .wholesale-intro,
+  .wholesale-options,
+  .market-layout,
+  .faq-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .cuts-layout {
+    gap: 1.65rem;
+  }
+
+  .cuts-photo {
+    min-height: clamp(300px, 46vw, 420px);
+    max-height: 420px;
+  }
+
+  .story-layout {
+    gap: 2rem;
+  }
+
+  .story-quality {
+    grid-template-columns: 1fr;
+  }
+
+  .buying-image {
+    min-height: 420px;
+  }
+
+  .wholesale-options {
+    gap: 1rem;
+  }
+
+  .faq-layout {
+    gap: 1.5rem;
+  }
+}
+
 @media (max-width: 700px) {
   :root {
     --page-gutter: 1.15rem;
@@ -1670,7 +1708,7 @@ main [id] {
 
   .header-inner {
     min-height: 64px;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1fr auto;
     gap: 0.55rem;
     padding-block: 0.35rem;
   }
@@ -1680,20 +1718,16 @@ main [id] {
     height: 49px;
   }
 
-  .button--header {
-    min-height: 40px;
-    padding-inline: 0.7rem;
-    font-size: 0.72rem;
-  }
-
   .menu-toggle {
     grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
     width: 40px;
     height: 40px;
   }
 
   .button--header {
-    grid-column: 3;
+    display: none;
   }
 
   .has-js .main-nav.is-open {
@@ -1729,7 +1763,7 @@ main [id] {
   .hero h1 {
     max-width: 18ch;
     margin-bottom: 1rem;
-    font-size: clamp(2.8rem, 12vw, 4.35rem);
+    font-size: clamp(2.5rem, 10.5vw, 4rem);
   }
 
   .hero-description {
@@ -1878,17 +1912,9 @@ main [id] {
     padding: 1.35rem;
   }
 
-  .story-quality-heading h3 {
-    max-width: 16ch;
-  }
-
   .quality-list > div {
     grid-template-columns: 4.25rem minmax(0, 1fr);
     gap: 0.75rem;
-  }
-
-  .story-copy h2 {
-    max-width: 13ch;
   }
 
   .buying-section {
@@ -1943,10 +1969,6 @@ main [id] {
     height: 72%;
   }
 
-  .market-copy h2 {
-    max-width: 15ch;
-  }
-
   .branches-heading {
     align-items: flex-start;
     flex-direction: column;
@@ -1989,10 +2011,6 @@ main [id] {
     gap: 1.5rem;
   }
 
-  .faq-heading h2 {
-    max-width: none;
-  }
-
   .faq-list summary {
     font-size: 0.94rem;
   }
@@ -2024,11 +2042,6 @@ main [id] {
 
   .hero-ribbon a {
     padding-inline: 0.65rem;
-  }
-
-  .button--header {
-    padding-inline: 0.55rem;
-    font-size: 0.65rem;
   }
 
   .menu-toggle {
