@@ -45,6 +45,9 @@ the only custom brand lettering.
 - Alternate dark commerce framing, white editorial space, and red conversion
   panels. Let real photography carry visual weight; avoid ornamental gradients,
   fake badges, and metric blocks.
+- Present user-supplied customer reviews in a calm editorial grid before the
+  branch information, with a direct link to the Google Maps source. Do not add
+  an aggregate rating or review count unless verified and supplied.
 - Use every existing photograph in `img/`; lazy-load offscreen images.
 - Keep branch information separate and clearly attributable to each location.
 - On compact screens, retain the logo and contact action and use a full-screen
@@ -61,7 +64,9 @@ the only custom brand lettering.
   visible by default. With JavaScript unavailable, the complete catalog remains
   readable.
 - Do not invent current prices, promotions, availability, customer reviews,
-  sales statistics, delivery terms, or quality certifications.
+  aggregate ratings, review counts, sales statistics, delivery terms, or
+  quality certifications. Publish supplied customer reviews verbatim with
+  clear source attribution.
 - Branch hours and addresses are sourced from published information and retain
   a note to confirm changes and holidays.
 - Preserve visible keyboard focus, contrast, useful image alternatives, native

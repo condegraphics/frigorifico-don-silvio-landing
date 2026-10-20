@@ -53,9 +53,13 @@ may identify a branch or inquiry type, but all links use this one number.
   process descriptions to the company; do not imply certification, guarantee,
   or scope beyond the supplied information.
 - Current prices, promotions, stock, branch hours, delivery, minimum orders,
-  and wholesale conditions must not be invented or presented as guaranteed.
+  wholesale conditions, aggregate review ratings, and review counts must not
+  be invented or presented as guaranteed.
 - Do not add certifications, quality controls, or customer ratings beyond
   information the user has supplied and approved.
+- The user supplied five real customer reviews and their Google Maps source.
+  They may be quoted verbatim with attribution; no aggregate rating or count
+  was supplied.
 - Do not combine Don Silvio with La Granja Don Silvio until their relationship
   is confirmed.
 
@@ -72,9 +76,10 @@ may identify a branch or inquiry type, but all links use this one number.
   supplied by the user and dated October 19, 2026. It is a strategic synthesis
   of public information and explicitly flags facts that require confirmation.
 - Brand imagery and logo: repository `img/` directory.
-- No current approved price list, offer, customer testimonial, delivery policy,
-  or wholesale conditions were supplied. The user confirmed the single
-  conversion destination as WhatsApp +54 9 11 2318-2958.
+- No current approved price list, offer, delivery policy, or wholesale
+  conditions were supplied. The user confirmed five customer reviews and
+  their Google Maps source, plus the single conversion destination as WhatsApp
+  +54 9 11 2318-2958.
 
 ## Product Principles
 
