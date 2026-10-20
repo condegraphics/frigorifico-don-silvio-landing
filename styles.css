@@ -2155,3 +2155,33 @@ main [id] {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Aire entre cada H2 y su texto de bajada */
+.section-heading h2,
+.story-copy h2,
+.buying-copy h2,
+.reviews-heading h2,
+.branches-heading h2,
+.faq-heading h2,
+.cuts-copy h2,
+.wholesale-intro-copy h2 {
+  margin-bottom: clamp(1.25rem, 2.4vw, 1.9rem);
+}
+
+.section-heading {
+  margin-bottom: clamp(2.5rem, 4vw, 3.25rem);
+}
+
+.reviews-heading {
+  margin-bottom: clamp(2.25rem, 4vw, 3rem);
+}
+
+.section-heading p,
+.reviews-heading > p,
+.branches-heading > div > p,
+.faq-heading > p,
+.buying-copy p,
+.cuts-intro,
+.wholesale-intro-copy > p {
+  line-height: 1.7;
+}
