@@ -39,7 +39,8 @@ the only custom brand lettering.
   hero with clear actions, product catalog and filters, image-led business
   story, retail/wholesale paths, current-offer inquiry, branches, FAQs, footer.
 - The hero uses a real repository photograph as its entire background, with a
-  restrained dark overlay for legible copy and a red, three-part purchase ribbon.
+  restrained dark overlay, an uppercase business-name eyebrow, the direct-sale
+  headline, and a red, three-part purchase ribbon.
 - Use a four-column desktop catalog with varied product photography and a
   compact filter rail; collapse to two columns on mobile.
 - Alternate dark commerce framing, white editorial space, and red conversion
