@@ -1,4 +1,4 @@
-# Hostinger (LiteSpeed/Apache). GitHub Pages ignores this file.
+# cPanel hosting (Apache/LiteSpeed), AMPM Hosting. GitHub Pages ignores this file.
 Options -Indexes -MultiViews
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
