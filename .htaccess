@@ -1,0 +1,67 @@
+# Hostinger (LiteSpeed/Apache). GitHub Pages ignores this file.
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Canonical host + HTTPS in a single 301 hop: https://www.donsilvio.com.ar
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} !^www\.donsilvio\.com\.ar$ [NC]
+  RewriteCond %{HTTP_HOST} ^(www\.)?donsilvio\.com\.ar$ [NC]
+  RewriteRule ^ https://www.donsilvio.com.ar%{REQUEST_URI} [R=301,L]
+
+  # /index.html -> /
+  RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+  RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L,NC]
+
+  # Legacy WordPress URLs with no equivalent: permanently gone (410)
+  RewriteRule ^(wp-admin|wp-content|wp-includes|wp-json|xmlrpc\.php|wp-login\.php|wp-cron\.php|wp-.*\.php|feed|comments)(/|$) - [G,L]
+  RewriteCond %{QUERY_STRING} (^|&)(p|page_id|cat|tag|s|author)= [NC]
+  RewriteRule ^ - [G,L]
+
+  # Old WordPress pages that map to the landing: add specific 301s here, e.g.
+  # RewriteRule ^contacto/?$ / [R=301,L]
+  # RewriteRule ^sucursales/?$ /#sucursales [NE,R=301,L]
+</IfModule>
+
+# Everything else not found returns a real 404 via ErrorDocument.
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+  Header always set Strict-Transport-Security "max-age=31536000" env=HTTPS
+  Header always set Cross-Origin-Opener-Policy "same-origin"
+
+  <FilesMatch "^(404\.html)$">
+    Header set X-Robots-Tag "noindex"
+  </FilesMatch>
+
+  <FilesMatch "\.(html|xml|txt)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+  <FilesMatch "\.(jpe?g|png|webp|avif|svg|ico|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/xml application/xml image/svg+xml text/plain
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType image/svg+xml .svg
+  AddType application/xml .xml
+  AddDefaultCharset UTF-8
+</IfModule>
+
+# Block dotfiles and project docs from being served
+<FilesMatch "^(\.git.*|.*\.md)$">
+  Require all denied
+</FilesMatch>
