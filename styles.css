@@ -733,7 +733,7 @@ main [id] {
 
 .buying-section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 4.15fr);
   background: var(--paper);
 }
 
@@ -793,6 +793,7 @@ main [id] {
 .buying-channel h3 {
   margin-bottom: 0.8rem;
   font-size: 1.1rem;
+  text-transform: uppercase;
 }
 
 .buying-channel__phone {
@@ -1747,9 +1748,12 @@ main [id] {
 }
 
 @media (max-width: 900px) {
+  .buying-section {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 4.15fr);
+  }
+
   .cuts-layout,
   .story-layout,
-  .buying-section,
   .wholesale-intro,
   .wholesale-options,
   .market-layout,
@@ -1775,7 +1779,7 @@ main [id] {
   }
 
   .buying-image {
-    min-height: 420px;
+    min-height: 520px;
   }
 
   .wholesale-options {
@@ -2009,7 +2013,7 @@ main [id] {
   }
 
   .buying-section {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 4.15fr);
   }
 
   .wholesale-intro,
@@ -2032,22 +2036,43 @@ main [id] {
   }
 
   .buying-image {
-    min-height: 320px;
-    max-height: 410px;
+    min-height: 480px;
+    max-height: 640px;
   }
 
   .buying-copy {
-    padding: 3rem var(--page-gutter) 3.5rem;
+    padding: 3rem clamp(1.5rem, 5vw, 3.5rem) 3.5rem;
   }
 
   .buying-channels {
-    grid-template-columns: 1fr;
-    gap: 0.7rem;
-    margin-top: 1.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin-top: 1.6rem;
   }
 
   .buying-channel {
-    padding: 1rem;
+    padding: 0.9rem;
+  }
+
+  .buying-channel__phone {
+    font-size: clamp(1rem, 2.6vw, 1.3rem);
+  }
+
+  .buying-channel__eyebrow {
+    font-size: 0.64rem;
+  }
+
+  .buying-channel h3 {
+    font-size: 0.96rem;
+  }
+
+  .buying-channel__call {
+    font-size: 0.68rem;
+  }
+
+  .buying-channel__emails {
+    display: grid;
+    gap: 0.35rem;
   }
 
   .market-layout {
