@@ -793,6 +793,201 @@ main [id] {
   font-size: 1rem;
 }
 
+.buying-wholesale-detail {
+  display: inline-block;
+  margin-top: 0.9rem;
+  color: var(--red-dark);
+  font-size: 0.88rem;
+  font-weight: 750;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+.buying-wholesale-detail:hover {
+  color: var(--ink);
+}
+
+.wholesale-section {
+  background: var(--paper);
+}
+
+.wholesale-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5.5rem);
+}
+
+.wholesale-photo {
+  min-height: 460px;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  background: #d9d5ce;
+}
+
+.wholesale-photo img {
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  object-fit: cover;
+}
+
+.wholesale-photo figcaption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 1.2rem;
+  background: linear-gradient(transparent, rgb(0 0 0 / 0.72));
+  color: var(--white);
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+
+.wholesale-intro-copy h2 {
+  max-width: 22ch;
+  margin-bottom: 1.15rem;
+  font-size: clamp(2.15rem, 4vw, 3.45rem);
+  font-weight: 780;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+}
+
+.wholesale-intro-copy > p:last-child {
+  max-width: 62ch;
+  margin-bottom: 0;
+  color: var(--ink-soft);
+}
+
+.wholesale-options {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  align-items: stretch;
+  gap: 1rem;
+  margin-top: clamp(2.5rem, 5vw, 4.5rem);
+}
+
+.mocho-detail,
+.parrillero-detail {
+  min-width: 0;
+  padding: clamp(1.35rem, 3vw, 2.5rem);
+}
+
+.mocho-detail {
+  background: var(--white);
+}
+
+.mocho-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.mocho-heading h3,
+.parrillero-detail h3 {
+  margin-bottom: 0.7rem;
+  font-size: clamp(1.55rem, 2.5vw, 2.2rem);
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+}
+
+.mocho-weight {
+  flex: 0 0 auto;
+  display: grid;
+  justify-items: end;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.mocho-weight strong {
+  color: var(--red-dark);
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.mocho-lede {
+  margin: 0.25rem 0 1.15rem;
+  color: var(--muted);
+}
+
+.mocho-cuts {
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+
+.mocho-cuts > div {
+  display: grid;
+  grid-template-columns: minmax(130px, 0.72fr) minmax(0, 1.28fr);
+  gap: 1rem;
+  padding-block: 0.85rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.mocho-cuts dt {
+  font-weight: 750;
+}
+
+.mocho-cuts dd {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.mocho-inclusions {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.parrillero-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--ink);
+  color: var(--white);
+}
+
+.parrillero-detail h3 {
+  font-size: clamp(2rem, 3.4vw, 3rem);
+}
+
+.parrillero-detail > p:not(.wholesale-kicker) {
+  max-width: 44ch;
+  margin-bottom: 1rem;
+  color: rgb(255 255 255 / 0.86);
+}
+
+.parrillero-detail > p:last-child {
+  margin-bottom: 0;
+}
+
+.wholesale-prep {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding: clamp(1.35rem, 3vw, 2.25rem);
+  border-top: 3px solid var(--red);
+  background: var(--white);
+}
+
+.wholesale-prep h3 {
+  margin-bottom: 0.45rem;
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  letter-spacing: -0.02em;
+}
+
+.wholesale-prep p {
+  max-width: 72ch;
+  margin: 0;
+  color: var(--muted);
+}
+
 .market-section {
   background: var(--red);
   color: var(--white);
@@ -1443,6 +1638,24 @@ main [id] {
     min-height: 510px;
   }
 
+  .wholesale-intro {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 2rem;
+  }
+
+  .wholesale-photo {
+    min-height: 420px;
+  }
+
+  .wholesale-options {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+  }
+
+  .mocho-cuts > div {
+    grid-template-columns: minmax(110px, 0.72fr) minmax(0, 1.28fr);
+    gap: 0.75rem;
+  }
+
   .buying-copy {
     padding: 2.5rem;
   }
@@ -1693,6 +1906,25 @@ main [id] {
     grid-template-columns: 1fr;
   }
 
+  .wholesale-intro,
+  .wholesale-options {
+    grid-template-columns: 1fr;
+  }
+
+  .wholesale-photo {
+    min-height: 320px;
+    max-height: 440px;
+  }
+
+  .wholesale-prep {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .wholesale-prep .button {
+    width: 100%;
+  }
+
   .buying-image {
     min-height: 320px;
     max-height: 410px;
@@ -1748,6 +1980,15 @@ main [id] {
   .branch-links {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .mocho-heading {
+    flex-direction: column;
+  }
+
+  .mocho-weight {
+    justify-items: start;
+    text-align: left;
   }
 
   .reviews-grid {

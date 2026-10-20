@@ -48,6 +48,9 @@ the only custom brand lettering.
 - Present user-supplied customer reviews in a calm editorial grid before the
   branch information, with a direct link to the Google Maps source. Do not add
   an aggregate rating or review count unless verified and supplied.
+- Give the wholesale media-res section a distinct product-story treatment:
+  use the supplied mocho photograph, a legible mocho cut breakdown, a separate
+  parrillero explanation, and a clear preparation lead-time/WhatsApp action.
 - Use every existing photograph in `img/`; lazy-load offscreen images.
 - Keep branch information separate and clearly attributable to each location.
 - On compact screens, retain the logo and contact action and use a full-screen
@@ -63,6 +66,10 @@ the only custom brand lettering.
 - The catalog filters operate on product categories and keep all products
   visible by default. With JavaScript unavailable, the complete catalog remains
   readable.
+- Preserve user-supplied wholesale product details, including approximate
+  mocho weight, included cuts, custom preparation, and the 1–2 day advance
+  order requirement; direct current price and availability questions to
+  WhatsApp.
 - Do not invent current prices, promotions, availability, customer reviews,
   aggregate ratings, review counts, sales statistics, delivery terms, or
   quality certifications. Publish supplied customer reviews verbatim with

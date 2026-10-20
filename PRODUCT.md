@@ -60,6 +60,10 @@ may identify a branch or inquiry type, but all links use this one number.
 - The user supplied five real customer reviews and their Google Maps source.
   They may be quoted verbatim with attribution; no aggregate rating or count
   was supplied.
+- The user supplied details for wholesale media res, mocho, and parrillero:
+  approximate mocho weight of 30–35 kg, listed cuts and included trim/bones,
+  custom cutting/packing/labeling, and orders requested 1–2 days ahead. Treat
+  price and availability as WhatsApp inquiries rather than fixed promises.
 - Do not combine Don Silvio with La Granja Don Silvio until their relationship
   is confirmed.
 
