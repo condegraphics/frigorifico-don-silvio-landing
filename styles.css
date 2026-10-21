@@ -819,17 +819,21 @@ main [id] {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  min-height: 2.85rem;
-  padding: 0.55rem 1rem;
+  min-height: 50px;
+  padding: 0.85rem 1.35rem;
   border: 1px solid var(--red);
-  border-radius: 999px;
+  border-radius: 3px;
   background: var(--red);
   color: var(--white);
-  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
   font-weight: 800;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.02em;
   line-height: 1.2;
   text-decoration: none;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms var(--ease-out);
   white-space: nowrap;
 }
 
@@ -838,6 +842,11 @@ main [id] {
   border-color: var(--red-dark);
   background: var(--red-dark);
   color: var(--white);
+  transform: translateY(-2px);
+}
+
+.buying-channel__phone:active {
+  transform: translateY(1px);
 }
 
 .buying-channel > p {
@@ -863,20 +872,6 @@ main [id] {
 
 .buying-channel__emails a:hover {
   color: var(--red-dark);
-}
-
-.buying-wholesale-detail {
-  display: inline-block;
-  margin-top: 1.25rem;
-  color: var(--red-dark);
-  font-size: 0.88rem;
-  font-weight: 750;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.22em;
-}
-
-.buying-wholesale-detail:hover {
-  color: var(--ink);
 }
 
 .wholesale-section {
@@ -2078,7 +2073,6 @@ main [id] {
   .buying-channel__phone {
     justify-content: center;
     width: 100%;
-    min-height: 3.2rem;
     font-size: 1.25rem;
   }
 
