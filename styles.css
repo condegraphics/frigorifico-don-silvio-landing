@@ -819,9 +819,13 @@ main [id] {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.7rem;
-  color: var(--ink);
-  font-size: clamp(1.2rem, 2vw, 1.65rem);
+  min-height: 2.85rem;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--red);
+  border-radius: 999px;
+  background: var(--red);
+  color: var(--white);
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
   font-weight: 800;
   letter-spacing: -0.035em;
   line-height: 1.2;
@@ -831,17 +835,9 @@ main [id] {
 
 .buying-channel__phone:hover,
 .buying-channel__phone:focus-visible {
-  color: var(--red-dark);
-}
-
-.buying-channel__call {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  color: var(--red-dark);
-  font-size: 0.72rem;
-  font-weight: 750;
-  letter-spacing: 0;
+  border-color: var(--red-dark);
+  background: var(--red-dark);
+  color: var(--white);
 }
 
 .buying-channel > p {
@@ -2067,8 +2063,29 @@ main [id] {
   }
 
   .buying-channel {
-    column-gap: 0.65rem;
+    grid-template-columns: 1fr;
+    row-gap: 0.55rem;
+    align-items: start;
     padding: 1rem;
+  }
+
+  .buying-channel h3,
+  .buying-channel__phone,
+  .buying-channel > p {
+    grid-column: 1;
+  }
+
+  .buying-channel__phone {
+    justify-content: center;
+    width: 100%;
+    min-height: 3.2rem;
+    font-size: 1.25rem;
+  }
+
+  .buying-channel > p {
+    margin-top: 0.1rem;
+    font-size: 0.98rem;
+    line-height: 1.55;
   }
 
   .buying-channel__emails {
