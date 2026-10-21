@@ -326,6 +326,21 @@ main [id] {
   background: var(--paper);
 }
 
+/* Give the products intro more room on wide screens while keeping it centered. */
+.products-section .section-heading {
+  max-width: 90ch;
+}
+
+.products-section .section-heading h2 {
+  max-width: 34ch;
+  margin-inline: auto;
+}
+
+.products-section .section-heading > p {
+  max-width: 88ch;
+  margin-inline: auto;
+}
+
 .section-heading {
   max-width: var(--copy-measure);
   margin-bottom: 2.35rem;
