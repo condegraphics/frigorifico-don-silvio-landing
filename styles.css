@@ -604,14 +604,16 @@ main [id] {
 }
 
 .cuts-wholesale {
-  font-size: 0.9rem;
-  font-weight: 750;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.25em;
+  border-color: var(--red);
+  background: transparent;
+  color: var(--ink);
 }
 
-.cuts-wholesale:hover {
-  color: var(--red);
+.cuts-wholesale:hover,
+.cuts-wholesale:focus-visible {
+  border-color: var(--red-dark);
+  background: var(--red);
+  color: var(--white);
 }
 
 .cuts-location {
